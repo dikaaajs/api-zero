@@ -1,0 +1,11 @@
+http://localhost:3000/api/note?d=671cd7b0fd136c64bae8890a
+
+###
+POST http://localhost:3000/api/note
+Content-Type: application/json
+
+{
+    "headline": "test",
+    "valueNote": [{"typeValue": "string", "value": "apa aja lorem ipsum"}],
+    "creatorId": "test"
+} 
